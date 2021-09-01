@@ -2,7 +2,7 @@
 import numpy as np 
 import cv2 as cv
 
-sheet = np.zeros((800,800,3), np.uint8) #Creating a black background to draw upon
+sheet = np.zeros((720,800,3), np.uint8) #Creating a black background to draw upon
 sheet = cv.bitwise_not(sheet,sheet) #Creating a white background(optional)
 x1,y1 = 0,0 #Used for initializing the loop
 
